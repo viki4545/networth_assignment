@@ -1,0 +1,37 @@
+{
+  "name": "networth_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viki4545/networth_assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viki4545/networth_assignment/issues"
+  },
+  "homepage": "https://github.com/viki4545/networth_assignment#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "@hapi/inert": "^7.1.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "hapi-rate-limit": "^5.0.1",
+    "joi": "^17.13.3",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
