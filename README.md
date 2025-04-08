@@ -38,7 +38,7 @@ A secure and modular **RESTful API** built using **Hapi.js** to manage user data
 - `.env` file with the following keys:
 
 ```env
-PORT=3000
+PORT=5000
 MONGO_URI=mongodb://localhost:27017/networth
 JWT_SECRET=your-secret-key
 ENCRYPTION_KEY=your-32-byte-encryption-key
